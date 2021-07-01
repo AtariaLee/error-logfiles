@@ -1,0 +1,266 @@
+[ 98%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:7:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/misc/python/pyopencv_phase_unwrapping.hpp:2:13: error: ‘phase_unwrapping’ in namespace ‘cv’ does not name a type
+ typedef cv::phase_unwrapping::HistogramPhaseUnwrapping::Params HistogramPhaseUnwrapping_Params;
+             ^~~~~~~~~~~~~~~~
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:8:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:3:40: error: ‘ppf_match_3d’ was not declared in this scope
+ template<> struct pyopencvVecConverter<ppf_match_3d::Pose3DPtr >
+                                        ^~~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:3:40: note: suggested alternative: ‘rpmatch’
+ template<> struct pyopencvVecConverter<ppf_match_3d::Pose3DPtr >
+                                        ^~~~~~~~~~~~
+                                        rpmatch
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:3:64: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<ppf_match_3d::Pose3DPtr >
+                                                                ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:16:21: error: ‘ppf_match_3d’ was not declared in this scope
+ typedef std::vector<ppf_match_3d::Pose3DPtr> vector_Pose3DPtr;
+                     ^~~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:16:21: note: suggested alternative: ‘rpmatch’
+ typedef std::vector<ppf_match_3d::Pose3DPtr> vector_Pose3DPtr;
+                     ^~~~~~~~~~~~
+                     rpmatch
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:16:44: error: template argument 1 is invalid
+ typedef std::vector<ppf_match_3d::Pose3DPtr> vector_Pose3DPtr;
+                                            ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/misc/python/pyopencv_ppf_match_3d.hpp:16:44: error: template argument 2 is invalid
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:17:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:4:40: error: ‘linemod’ was not declared in this scope
+ template<> struct pyopencvVecConverter<linemod::Match>
+                                        ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:4:40: note: suggested alternative: ‘lchmod’
+ template<> struct pyopencvVecConverter<linemod::Match>
+                                        ^~~~~~~
+                                        lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:4:54: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<linemod::Match>
+                                                      ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:17:40: error: ‘linemod’ was not declared in this scope
+ template<> struct pyopencvVecConverter<linemod::Template>
+                                        ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:17:40: note: suggested alternative: ‘lchmod’
+ template<> struct pyopencvVecConverter<linemod::Template>
+                                        ^~~~~~~
+                                        lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:17:57: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<linemod::Template>
+                                                         ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:30:40: error: ‘linemod’ was not declared in this scope
+ template<> struct pyopencvVecConverter<linemod::Feature>
+                                        ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:30:40: note: suggested alternative: ‘lchmod’
+ template<> struct pyopencvVecConverter<linemod::Feature>
+                                        ^~~~~~~
+                                        lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:30:56: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<linemod::Feature>
+                                                        ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:43:44: error: ‘linemod’ was not declared in this scope
+ template<> struct pyopencvVecConverter<Ptr<linemod::Modality> >
+                                            ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:43:44: note: suggested alternative: ‘lchmod’
+ template<> struct pyopencvVecConverter<Ptr<linemod::Modality> >
+                                            ^~~~~~~
+                                            lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:43:61: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<Ptr<linemod::Modality> >
+                                                             ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:43:63: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<Ptr<linemod::Modality> >
+                                                               ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:56:21: error: ‘linemod’ was not declared in this scope
+ typedef std::vector<linemod::Match> vector_Match;
+                     ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:56:21: note: suggested alternative: ‘lchmod’
+ typedef std::vector<linemod::Match> vector_Match;
+                     ^~~~~~~
+                     lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:56:35: error: template argument 1 is invalid
+ typedef std::vector<linemod::Match> vector_Match;
+                                   ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:56:35: error: template argument 2 is invalid
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:57:21: error: ‘linemod’ was not declared in this scope
+ typedef std::vector<linemod::Template> vector_Template;
+                     ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:57:21: note: suggested alternative: ‘lchmod’
+ typedef std::vector<linemod::Template> vector_Template;
+                     ^~~~~~~
+                     lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:57:38: error: template argument 1 is invalid
+ typedef std::vector<linemod::Template> vector_Template;
+                                      ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:57:38: error: template argument 2 is invalid
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:58:21: error: ‘linemod’ was not declared in this scope
+ typedef std::vector<linemod::Feature> vector_Feature;
+                     ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:58:21: note: suggested alternative: ‘lchmod’
+ typedef std::vector<linemod::Feature> vector_Feature;
+                     ^~~~~~~
+                     lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:58:37: error: template argument 1 is invalid
+ typedef std::vector<linemod::Feature> vector_Feature;
+                                     ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:58:37: error: template argument 2 is invalid
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:59:25: error: ‘linemod’ was not declared in this scope
+ typedef std::vector<Ptr<linemod::Modality> > vector_Ptr_Modality;
+                         ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:59:25: note: suggested alternative: ‘lchmod’
+ typedef std::vector<Ptr<linemod::Modality> > vector_Ptr_Modality;
+                         ^~~~~~~
+                         lchmod
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:59:42: error: template argument 1 is invalid
+ typedef std::vector<Ptr<linemod::Modality> > vector_Ptr_Modality;
+                                          ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:59:44: error: template argument 1 is invalid
+ typedef std::vector<Ptr<linemod::Modality> > vector_Ptr_Modality;
+                                            ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/rgbd/misc/python/pyopencv_linemod.hpp:59:44: error: template argument 2 is invalid
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:21:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/misc/python/pyopencv_ximgproc.hpp:2:13: error: ‘ximgproc’ in namespace ‘cv’ does not name a type
+ typedef cv::ximgproc::EdgeDrawing::Params EdgeDrawing_Params;
+             ^~~~~~~~
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:25:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/tracking/misc/python/pyopencv_tracking.hpp:2:9: error: ‘TrackerCSRT’ does not name a type
+ typedef TrackerCSRT::Params TrackerCSRT_Params;
+         ^~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/tracking/misc/python/pyopencv_tracking.hpp:3:9: error: ‘TrackerKCF’ does not name a type
+ typedef TrackerKCF::Params TrackerKCF_Params;
+         ^~~~~~~~~~
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:26:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:2:21: error: ‘stereo’ was not declared in this scope
+ typedef std::vector<stereo::MatchQuasiDense> vector_MatchQuasiDense;
+                     ^~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:2:21: note: suggested alternative:
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_generated_include.h:71:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:41:
+/home/lee/OpenCV/opencv-4.5.2/modules/gapi/include/opencv2/gapi/stereo.hpp:58:19: note:   ‘cv::gapi::stereo’
+ GAPI_EXPORTS GMat stereo(const GMat& left,
+                   ^~~~~~
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:26:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:2:44: error: template argument 1 is invalid
+ typedef std::vector<stereo::MatchQuasiDense> vector_MatchQuasiDense;
+                                            ^
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:2:44: error: template argument 2 is invalid
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:4:40: error: ‘stereo’ was not declared in this scope
+ template<> struct pyopencvVecConverter<stereo::MatchQuasiDense>
+                                        ^~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:4:40: note: suggested alternative:
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_generated_include.h:71:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:41:
+/home/lee/OpenCV/opencv-4.5.2/modules/gapi/include/opencv2/gapi/stereo.hpp:58:19: note:   ‘cv::gapi::stereo’
+ GAPI_EXPORTS GMat stereo(const GMat& left,
+                   ^~~~~~
+In file included from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:26:0,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/stereo/misc/python/pyopencv_stereo.hpp:4:63: error: template argument 1 is invalid
+ template<> struct pyopencvVecConverter<stereo::MatchQuasiDense>
+                                                               ^
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp: In instantiation of ‘bool pyopencv_to(PyObject*, T&, const ArgInfo&) [with T = cv::line_descriptor::KeyLine; PyObject = _object]’:
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:1629:24:   required from ‘bool pyopencv_to_generic_vec(PyObject*, std::vector<_Tp>&, const ArgInfo&) [with _Tp = cv::line_descriptor::KeyLine; PyObject = _object]’
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/misc/python/pyopencv_LSDDetector.hpp:7:56:   required from here
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:94:94: error: ‘to’ is not a member of ‘PyOpenCV_Converter<cv::line_descriptor::KeyLine, void>’
+ bool pyopencv_to(PyObject* obj, T& p, const ArgInfo& info) { return PyOpenCV_Converter<T>::to(obj, p, info); }
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp: In instantiation of ‘PyObject* pyopencv_from(const T&) [with T = cv::line_descriptor::KeyLine; PyObject = _object]’:
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:1661:39:   required from ‘PyObject* pyopencv_from_generic_vec(const std::vector<_Tp>&) [with _Tp = cv::line_descriptor::KeyLine; PyObject = _object]’
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/misc/python/pyopencv_LSDDetector.hpp:12:47:   required from here
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:97:75: error: ‘from’ is not a member of ‘PyOpenCV_Converter<cv::line_descriptor::KeyLine, void>’
+ PyObject* pyopencv_from(const T& src) { return PyOpenCV_Converter<T>::from(src); }
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp: In instantiation of ‘bool pyopencv_to(PyObject*, T&, const ArgInfo&) [with T = cv::mcc::CChecker; PyObject = _object]’:
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:849:27:   required from ‘static bool PyOpenCV_Converter<cv::Ptr<_Tp> >::to(PyObject*, cv::Ptr<_Tp>&, const ArgInfo&) [with T = cv::mcc::CChecker; PyObject = _object]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:94:94:   required from ‘bool pyopencv_to(PyObject*, T&, const ArgInfo&) [with T = cv::Ptr<cv::mcc::CChecker>; PyObject = _object]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:1629:24:   required from ‘bool pyopencv_to_generic_vec(PyObject*, std::vector<_Tp>&, const ArgInfo&) [with _Tp = cv::Ptr<cv::mcc::CChecker>; PyObject = _object]’
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/misc/python/pyopencv_cchecker.hpp:9:56:   required from here
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:94:94: error: ‘to’ is not a member of ‘PyOpenCV_Converter<cv::mcc::CChecker, void>’
+ bool pyopencv_to(PyObject* obj, T& p, const ArgInfo& info) { return PyOpenCV_Converter<T>::to(obj, p, info); }
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp: In instantiation of ‘PyObject* pyopencv_from(const T&) [with T = cv::mcc::CChecker; PyObject = _object]’:
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:842:29:   required from ‘static PyObject* PyOpenCV_Converter<cv::Ptr<_Tp> >::from(const cv::Ptr<_Tp>&) [with T = cv::mcc::CChecker; PyObject = _object]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:97:75:   required from ‘PyObject* pyopencv_from(const T&) [with T = cv::Ptr<cv::mcc::CChecker>; PyObject = _object]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:1661:39:   required from ‘PyObject* pyopencv_from_generic_vec(const std::vector<_Tp>&) [with _Tp = cv::Ptr<cv::mcc::CChecker>; PyObject = _object]’
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/misc/python/pyopencv_cchecker.hpp:14:47:   required from here
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:97:75: error: ‘from’ is not a member of ‘PyOpenCV_Converter<cv::mcc::CChecker, void>’
+ PyObject* pyopencv_from(const T& src) { return PyOpenCV_Converter<T>::from(src); }
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/7/bits/allocator.h:46,
+                 from /usr/include/c++/7/string:41,
+                 from /usr/include/c++/7/stdexcept:39,
+                 from /usr/include/c++/7/array:39,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/core/include/opencv2/core/cvdef.h:742,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/core/include/opencv2/core.hpp:52,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:36:
+/usr/include/c++/7/ext/new_allocator.h: In instantiation of ‘void __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = cv::mcc::CChecker; _Args = {}; _Tp = cv::mcc::CChecker]’:
+/usr/include/c++/7/bits/alloc_traits.h:475:4:   required from ‘static void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = cv::mcc::CChecker; _Args = {}; _Tp = cv::mcc::CChecker; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<cv::mcc::CChecker>]’
+/usr/include/c++/7/bits/shared_ptr_base.h:526:39:   required from ‘std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = cv::mcc::CChecker; _Alloc = std::allocator<cv::mcc::CChecker>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]’
+/usr/include/c++/7/bits/shared_ptr_base.h:637:4:   required from ‘std::__shared_count<_Lp>::__shared_count(std::_Sp_make_shared_tag, _Tp*, const _Alloc&, _Args&& ...) [with _Tp = cv::mcc::CChecker; _Alloc = std::allocator<cv::mcc::CChecker>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]’
+/usr/include/c++/7/bits/shared_ptr_base.h:1295:35:   required from ‘std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...) [with _Alloc = std::allocator<cv::mcc::CChecker>; _Args = {}; _Tp = cv::mcc::CChecker; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]’
+/usr/include/c++/7/bits/shared_ptr.h:344:64:   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/usr/include/c++/7/bits/shared_ptr.h:706:39:   required from ‘std::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = cv::mcc::CChecker; _Args = {}]’
+/home/lee/OpenCV/opencv-4.5.2/modules/core/include/opencv2/core/cvstd_wrapper.hpp:146:43:   required from ‘cv::Ptr<_Tp> cv::makePtr(const A1& ...) [with _Tp = cv::mcc::CChecker; A1 = {}]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:848:23:   required from ‘static bool PyOpenCV_Converter<cv::Ptr<_Tp> >::to(PyObject*, cv::Ptr<_Tp>&, const ArgInfo&) [with T = cv::mcc::CChecker; PyObject = _object]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:94:94:   required from ‘bool pyopencv_to(PyObject*, T&, const ArgInfo&) [with T = cv::Ptr<cv::mcc::CChecker>; PyObject = _object]’
+/home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:1629:24:   required from ‘bool pyopencv_to_generic_vec(PyObject*, std::vector<_Tp>&, const ArgInfo&) [with _Tp = cv::Ptr<cv::mcc::CChecker>; PyObject = _object]’
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/misc/python/pyopencv_cchecker.hpp:9:56:   required from here
+/usr/include/c++/7/ext/new_allocator.h:136:4: error: invalid new-expression of abstract class type ‘cv::mcc::CChecker’
+  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_detector.hpp:32:0,
+                 from /home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc.hpp:33,
+                 from /home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/misc/python/pyopencv_cchecker.hpp:1,
+                 from /home/lee/OpenCV/build/modules/python_bindings_generator/pyopencv_custom_headers.h:15,
+                 from /home/lee/OpenCV/opencv-4.5.2/modules/python/src2/cv2.cpp:2207:
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:64:20: note:   because the following virtual functions are pure within ‘cv::mcc::CChecker’:
+ class CV_EXPORTS_W CChecker
+                    ^~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:83:26: note: 	virtual void cv::mcc::CChecker::setTarget(cv::mcc::TYPECHART)
+     CV_WRAP virtual void setTarget(TYPECHART _target)  = 0;
+                          ^~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:84:26: note: 	virtual void cv::mcc::CChecker::setBox(std::vector<cv::Point_<float> >)
+     CV_WRAP virtual void setBox(std::vector<Point2f> _box) = 0;
+                          ^~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:85:26: note: 	virtual void cv::mcc::CChecker::setChartsRGB(cv::Mat)
+     CV_WRAP virtual void setChartsRGB(Mat _chartsRGB) = 0;
+                          ^~~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:86:26: note: 	virtual void cv::mcc::CChecker::setChartsYCbCr(cv::Mat)
+     CV_WRAP virtual void setChartsYCbCr(Mat _chartsYCbCr) = 0;
+                          ^~~~~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:87:26: note: 	virtual void cv::mcc::CChecker::setCost(float)
+     CV_WRAP virtual void setCost(float _cost) = 0;
+                          ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:88:26: note: 	virtual void cv::mcc::CChecker::setCenter(cv::Point2f)
+     CV_WRAP virtual void setCenter(Point2f _center) = 0;
+                          ^~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:90:31: note: 	virtual cv::mcc::TYPECHART cv::mcc::CChecker::getTarget()
+     CV_WRAP virtual TYPECHART getTarget() = 0;
+                               ^~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:91:42: note: 	virtual std::vector<cv::Point_<float> > cv::mcc::CChecker::getBox()
+     CV_WRAP virtual std::vector<Point2f> getBox() = 0;
+                                          ^~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:92:25: note: 	virtual cv::Mat cv::mcc::CChecker::getChartsRGB()
+     CV_WRAP virtual Mat getChartsRGB() = 0;
+                         ^~~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:93:25: note: 	virtual cv::Mat cv::mcc::CChecker::getChartsYCbCr()
+     CV_WRAP virtual Mat getChartsYCbCr() = 0;
+                         ^~~~~~~~~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:94:27: note: 	virtual float cv::mcc::CChecker::getCost()
+     CV_WRAP virtual float getCost() = 0;
+                           ^~~~~~~
+/home/lee/OpenCV/opencv_contrib-4.5.2/modules/mcc/include/opencv2/mcc/checker_model.hpp:95:29: note: 	virtual cv::Point2f cv::mcc::CChecker::getCenter()
+     CV_WRAP virtual Point2f getCenter() = 0;
+                             ^~~~~~~~~
+modules/python2/CMakeFiles/opencv_python2.dir/build.make:62: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o' failed
+make[2]: *** [modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o] Error 1
+CMakeFiles/Makefile2:9817: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/all' failed
+make[1]: *** [modules/python2/CMakeFiles/opencv_python2.dir/all] Error 2
+Makefile:162: recipe for target 'all' failed
+make: *** [all] Error 2
